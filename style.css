@@ -20,6 +20,7 @@ li {
 }
 header {
   height: 60px;
+  border-bottom: 1px solid gray;
 }
 section {
   min-height: 80vh;
@@ -32,17 +33,23 @@ section {
 }
 footer {
   height: 60px;
+  border-top: 1px solid gray;
 }
 .navbar {
-  padding: 10px 15px;
 }
 .logo {
   float: left;
+  top: 5px;
+  left: 15px;
+  position: absolute;
 }
 .fa-bars {
   float: right;
   font-size: 29px;
   color: black;
+  top: 5px;
+  right: 15px;
+  position: absolute;
 }
 .modal {
   width: 300px;
@@ -87,12 +94,17 @@ input[type="checkbox"] {
 }
 .footer-left {
   float: left;
-  margin: 10px 15px;
   color: gray;
+  bottom: 10px;
+  left: 15px;
+  position: absolute;
+  font-size: 14px;
 }
 .footer-right {
   float: right;
-  margin: 10px 15px;
+  bottom: 10px;
+  right: 15px;
+  position: absolute;
 }
 ul.aboutus > li {
   display: inline-block;
