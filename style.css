@@ -50,14 +50,20 @@ footer {
   border: none;
   background: rgba(255, 255, 255, 0.75);
   margin: auto;
+  position: relative;
+  padding-left: 15px;
+  color: gray;
 }
 h3 {
   font-size: 4vmin;
+  color: rgb(24, 23, 23);
+  font-weight: 400;
 }
 input[type="number"] {
   width: 80%;
   height: 40px;
-  box-shadow: 0 2px 2px 0 rgb(219, 216, 216);
+  border: none;
+  box-shadow: 5px 5px 12px 0px gray;
   margin-left: 3px;
   padding-left: 10px;
 }
@@ -65,26 +71,28 @@ input[type="checkbox"] {
   margin-top: 15px;
   margin-left: 30px;
 }
-.fa-arrow-right {
-  float: right;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  border: 1px solid grey;
+
+.next-btn {
+  bottom: 15px;
+  right: 15px;
+  position: absolute;
+  font-size: 40px;
   border-radius: 50%;
   background-color: white;
-  color: black;
-  font-size: 30px;
+  border: solid 1px gray;
+}
+
+.next-btn img {
   padding: 15px;
-  margin: 15px 20px;
 }
 .footer-left {
-  width: 50%;
   float: left;
+  margin: 10px 15px;
+  color: gray;
 }
 .footer-right {
-  width: 50%;
   float: right;
+  margin: 10px 15px;
 }
 ul.aboutus > li {
   display: inline-block;
@@ -93,7 +101,6 @@ ul.aboutus > li {
   padding-right: 10px;
 }
 .fa-copyright {
-  margin: 5px 0px 5px 0px;
 }
 li.last {
   border-right: none !important;
@@ -103,7 +110,6 @@ li.last {
 }
 .footer-right > ul > li {
   display: inline-block;
-  margin-top: 15px;
 }
 .fab {
   color: white;
